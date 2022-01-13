@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(11, 28, 63);
+}
+
+nav{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(169, 194, 255);
+
+}
+ul {
+
+
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 20px;
+}
+ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(79, 119, 131);
+    padding: 0 20px;
+}
+ul li a:hover{
+    color: blue;
+    
+}
+.title {
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(79, 119, 131);
+}
+.title2 {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(79, 119, 131);
+}
+p {
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(79, 119, 131);
+}
+section {
+    background-color: rgb(11, 28, 63);
+    display: flex;
+    align-content: left;
+    justify-content: left;
+    flex-direction: column;
+}
+.container{
+    width: 500px;
+    max-width: 500px;
+    padding: 10px;
+    background-color:rgb(11, 28, 63);
+}
+.form-group{
+    width: 100%;
+    margin-top: 20px;
+    font-size:medium;
+}
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    padding: 2px;
+    font-size: medium;
+    margin-top: 5px;
+}
+textarea {
+    resize: vertical;
+}
+button[type="submit"]{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: medium;
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(79, 119, 131);
+    cursor: pointer;
+}
+button[type="submit"]:hover{
+    color: blue;
+}
+#status{
+    width: 90%;
+    max-width: 500px;
+    text-align: justify;
+    padding: 10px;
+}
+#status.success{
+    background-color: blue;
+    animation: status 4s ease forwards;
+}
+#status.error{
+    background-color: red;
+    animation: status 4s ease forwards;
+}
+@keyframes status{
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 1;
+        pointer-events: all;
+    }
+}
+.form-group{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(79, 119, 131);
+}
+.status{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(79, 119, 131);
+}
